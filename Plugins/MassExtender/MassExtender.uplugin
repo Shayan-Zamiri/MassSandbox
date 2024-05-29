@@ -1,0 +1,34 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0",
+  "FriendlyName": "MassExtender",
+  "Description": "This is a plugin to extend functionality of mass framework by providing many more processors and fragments.",
+  "Category": "Other",
+  "CreatedBy": "Shayan Zamiri",
+  "CreatedByURL": "",
+  "DocsURL": "",
+  "MarketplaceURL": "",
+  "SupportURL": "",
+  "CanContainContent": true,
+  "IsBetaVersion": true,
+  "IsExperimentalVersion": false,
+  "Installed": false,
+  "Modules": [
+    {
+      "Name": "MassExtender",
+      "Type": "Runtime",
+      "LoadingPhase": "PreLoadingScreen"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "MassEntity",
+      "Enabled": true
+    },
+    {
+      "Name": "MassGameplay",
+      "Enabled": true
+    }
+  ]
+}
